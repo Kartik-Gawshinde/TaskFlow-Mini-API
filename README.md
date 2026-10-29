@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow Mini API
 
 A beginner-friendly task-management REST API built with **Python**, **FastAPI**, **SQLite**, and **Docker Compose**.
@@ -179,3 +180,6 @@ git push -u origin main
 ```
 
 Replace the example repository URL with your own GitHub repository URL.
+=======
+# TaskFlow-Mini-API
+>>>>>>> ad9321e98d4c7856fcacb45e7087b031d6814d5b
