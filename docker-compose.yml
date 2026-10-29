@@ -1,0 +1,12 @@
+services:
+  taskflow-api:
+    build: .
+    container_name: taskflow-mini-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - taskflow-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  taskflow-data:
